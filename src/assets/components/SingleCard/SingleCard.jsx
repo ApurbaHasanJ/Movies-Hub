@@ -6,7 +6,7 @@ const SingleCard = ({movie, handleWatchTime}) => {
     console.log(movie);
     return (
         <div>
-            <div className="movie-card card text-center w-100 m-auto col-md-6 mb-5 p-5 ">
+            <div className="movie-card card text-center w-100 m-auto col-md-6 mb-5 p-5 bg-light ">
                     <div className="movie-poster w-25 m-auto">
                         <img className='w-75' src={movie.poster} alt="" />
                     </div>

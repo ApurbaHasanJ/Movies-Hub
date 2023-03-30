@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className='text-center mt-5'>
+    <div className='text-center container'>
       <div className="header m-auto mb-3">
         <Header></Header>
       </div>
@@ -38,7 +38,7 @@ function App() {
           <Home handleWatchTime={handleWatchTime}></Home>
 
         </div>
-        <div className="side-cart col-md-4 card">
+        <div className="side-cart col-md-4 card mb-5 bg-light">
           <SideCart watchTime={watchTime}></SideCart>
         </div>
       </div>
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
